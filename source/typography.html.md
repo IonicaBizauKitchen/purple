@@ -1,3 +1,7 @@
+---
+title: Purple | Typography
+---
+
 Heroku Flavored Markdown
 ========================
 

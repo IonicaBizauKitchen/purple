@@ -123,3 +123,18 @@ hr {
 .main {
   @include span-columns(8);
 }
+
+.swatches {
+  padding: 0;
+
+  list-style: none;
+
+  li {
+    margin-bottom: 1em;
+    padding: 1em;
+
+    border-radius: 0.25em;
+    color: white;
+    text-align: center;
+  }
+}
