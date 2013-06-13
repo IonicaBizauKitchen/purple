@@ -1,0 +1,152 @@
+/* $visual-grid: true; */
+/* line 2, /Users/Max/Code/purple/source/stylesheets/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 8, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+body {
+  color: #2D2D2D;
+  font-family: "BentonSans", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  line-height: 1.4em; }
+
+/* line 15, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+a:link,
+a:visited {
+  color: #6E5BAA; }
+
+/* line 20, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+a:hover,
+a:active {
+  text-decoration: none; }
+
+/* line 24, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+h1, h2, h3, h4 {
+  font-weight: 500;
+  line-height: 1em; }
+
+/* line 30, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+pre,
+code {
+  background: #F0F0F0; }
+
+/* line 34, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+code {
+  font-family: "Inconsolata", Menlo, Monaco, monospace; }
+
+/* line 38, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+pre {
+  border-radius: 0.25em;
+  padding: 0.75em; }
+
+/* line 43, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+blockquote {
+  border-left: 0.3em solid #F0F0F0;
+  margin-left: 0;
+  padding-left: 1em; }
+
+/* line 49, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+dt {
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 54, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+table {
+  border: 1px solid #CCC;
+  width: 100%; }
+
+/* line 59, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+tr:nth-child(2n) {
+  background: #F8F8F8; }
+
+/* line 64, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+th,
+td {
+  border: 1px solid #CCC;
+  padding: 0.75em; }
+
+/* line 69, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+th {
+  text-align: left; }
+
+/* line 73, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+hr {
+  height: 1px;
+  margin: 2em 0;
+  border: 0;
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09) 10%, rgba(0, 0, 0, 0.09) 90%, rgba(0, 0, 0, 0)); }
+
+/* line 81, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+.hero {
+  padding: 1em 0;
+  background: url("/images/hero-bg.png") center no-repeat;
+  background-size: cover;
+  text-align: center; }
+  /* line 88, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+  .hero h1 {
+    color: white;
+    font-family: "BentonSans";
+    font-size: 8em;
+    font-weight: 100;
+    line-height: 1em; }
+
+/* line 97, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+.wrapper {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  padding-top: 1em; }
+  /* line 18, /Users/Max/Code/purple/source/stylesheets/bourbon/addons/_clearfix.scss */
+  .wrapper:before, .wrapper:after {
+    content: " ";
+    display: table; }
+  /* line 23, /Users/Max/Code/purple/source/stylesheets/bourbon/addons/_clearfix.scss */
+  .wrapper:after {
+    clear: both; }
+
+/* line 103, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+.sidebar {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  /* line 41, /Users/Max/Code/purple/source/stylesheets/neat/grid/_span-columns.scss */
+  .sidebar:last-child {
+    margin-right: 0; }
+  /* line 106, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+  .sidebar ol {
+    padding: 0;
+    list-style-position: inside; }
+  /* line 112, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+  .sidebar li {
+    -webkit-border-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09) 10%, rgba(0, 0, 0, 0.09) 90%, rgba(0, 0, 0, 0)) 0 0 100% 0;
+    border-width: 0 0 1px;
+    padding: 0.5em 0; }
+    /* line 117, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+    .sidebar li:last-child {
+      border: none; }
+
+/* line 123, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+.main {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  /* line 41, /Users/Max/Code/purple/source/stylesheets/neat/grid/_span-columns.scss */
+  .main:last-child {
+    margin-right: 0; }
+
+/* line 127, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+.swatches {
+  padding: 0;
+  list-style: none; }
+  /* line 132, /Users/Max/Code/purple/source/stylesheets/all.css.scss */
+  .swatches li {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 0.25em;
+    color: white;
+    text-align: center; }
