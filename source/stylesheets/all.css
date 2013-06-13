@@ -1,55 +1,66 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
+  color: #2D2D2D;
+  font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  line-height: 1.4em;
+}
 
-h1 {
-  color: rgba(0, 0, 0, .3);
+a:link,
+a:visited {
+  color: #6E5BAA;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+pre,
+code {
+  background: #F0F0F0;
+}
+
+code {
+  font-family: "Inconsolata", Menlo, Monaco, monospace;
+}
+
+pre {
+  border-radius: 0.25em;
+  padding: 0.75em;
+}
+
+blockquote {
+  border-left: 0.3em solid #F0F0F0;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+dt {
+  font-style: italic;
   font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
+}
 
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
+table {
+  border: 1px solid #CCC;
+  width: 100%;
+}
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+tr:nth-child(2n) {
+  background: #F8F8F8;
+}
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+th,
+td {
+  border: 1px solid #CCC;
+  padding: 0.75em;
+}
+
+th {
+  text-align: left;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 640px;
 }
