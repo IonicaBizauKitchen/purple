@@ -43,12 +43,17 @@ set :markdown_engine, :redcarpet
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def menu_item(label, page)
+    if page == request.path
+      item = content_tag :span, label
+    else
+      item = link_to(label, page)
+    end
+
+    return content_tag :li, item
+  end
+end
 
 set :css_dir, 'stylesheets'
 

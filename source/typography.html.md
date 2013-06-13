@@ -3,17 +3,23 @@ Heroku Flavored Markdown
 
 *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
-Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
+Let's get the whole "linebreak" thing out of the way. The next paragraph
+contains two phrases separated by a single newline character:
 
 Roses are red
 Violets are blue
 
-The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
+The next paragraph has the same phrases, but now they are separated by two
+spaces and a newline character:
 
 Roses are red  
 Violets are blue
 
-Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
+Oh, and one thing I cannot stand is the mangling of words with multiple
+underscores in them like perform_complicated_task or
+do_this_and_do_that_and_another_thing.
+
+---
 
 We all like making lists
 ------------------------
@@ -59,6 +65,8 @@ Some people seem to like definition lists:
   <dd>We've changed the product so that it's much easier to use!</dd>
 </dl>
 
+---
+
 I am a robot
 ------------
 
@@ -80,6 +88,8 @@ How about we throw some angle braces and ampersands in there?
 </div>
 ```
 
+---
+
 Playing the blame game
 ----------------------
 
@@ -89,15 +99,16 @@ If you need to blame someone, the best way to do so is by quoting them:
 
 Or perhaps someone a little less eloquent:
 
-> I wish you'd have given me this written question ahead of time so I
-> could plan for it... I'm sure something will pop into my head here in
-> the midst of this press conference, with all the pressure of trying to
-> come up with answer, but it hadn't yet...
+> I wish you'd have given me this written question ahead of time so I could
+> plan for it... I'm sure something will pop into my head here in the midst of
+> this press conference, with all the pressure of trying to come up with
+> answer, but it hadn't yet...
 >
-> I don't want to sound like
-> I have made no mistakes. I'm confident I have. I just haven't - you
-> just put me under the spot here, and maybe I'm not as quick on my feet
-> as I should be in coming up with one.
+> I don't want to sound like I have made no mistakes. I'm confident I have. I
+> just haven't - you just put me under the spot here, and maybe I'm not as
+> quick on my feet as I should be in coming up with one.
+
+---
 
 Table for two
 -------------
@@ -114,12 +125,13 @@ Table for two
   </tr>
 </table>
 
+---
+
 Crazy linking action
 --------------------
 
-I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
-  [1]: http://google.com/        "Google"
-  [2]: http://search.yahoo.com/  "Yahoo Search"
-  [3]: http://search.msn.com/    "MSN Search"
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
