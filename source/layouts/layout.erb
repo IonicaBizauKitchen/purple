@@ -12,8 +12,21 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <div class="hero">
+      <h1>Purple</h1>
+    </div>
+
     <div class="wrapper">
-      <%= yield %>
+      <aside class="sidebar">
+        <ol>
+          <li>Overview</li>
+          <li>Typography</li>
+        </ol>
+      </aside>
+
+      <article class="main">
+        <%= yield %>
+      </article>
     </div>
   </body>
 </html>
